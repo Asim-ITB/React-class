@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  list-style: none;
+  padding: 10px 0 10px 0;
+}
+.navbar > li {
+  padding: 10px 1rem 10px 1rem;
+  margin: 0px 1rem 0px 1rem;
+}
+.navbar > li:hover {
+  cursor: pointer;
+  background-color: rgb(161, 202, 238);
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 5px;
+}
